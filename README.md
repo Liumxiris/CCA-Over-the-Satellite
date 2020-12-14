@@ -22,6 +22,21 @@ This is the main repository for CCA-Over-the-Satellite ISP B term.
 
 ## Findings
 
+- Progress
+    - Week1
+        -Used data directory:
+    - Week2
+        -Used data directory:
+    - Week3
+        -Used data directory:
+    - Week4
+        -Used data directory:
+    - Week5
+        -Used data directory:
+    - Week6
+        -Used data directory:
+    - Week7
+        -Used data directory:
 
 ## System Configurations
 - Flow
