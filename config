@@ -1,0 +1,52 @@
+ForwardAgent yes
+ForwardX11 yes
+
+
+Host cs
+    User zma4
+    HostName cs.wpi.edu
+
+Host glomma
+    User zma4
+    HostName glomma.cs.wpi.edu
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlc1
+    User zma4
+    HostName mlc1.cs.wpi.edu
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlc2
+    User zma4
+    HostName mlc2.cs.wpi.edu
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlc3
+    User zma4
+    HostName mlc3.cs.wpi.edu
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlc4
+    User zma4
+    HostName mlc4.cs.wpi.edu
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlcnetA
+    User zma4
+    HostName mlcnetA
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlcnetB
+    User zma4
+    HostName mlcnetB
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlcnetC
+    User zma4
+    HostName mlcnetC
+    ProxyCommand ssh cs -W %h:%p
+
+Host mlcnetD
+    User zma4
+    HostName mlcnetD
+    ProxyCommand ssh cs -W %h:%p
