@@ -1,0 +1,35 @@
+
+Zachary Porter
+
+
+Information locations:
+	- Tool to set the proxy mode : /home/zaporter/testbed/setProxyMode.sh
+	- Data collection tools : /home/zaporter/testbed/*
+		- Modifications in all_trials.py and trials.py
+		- Currently configured primarily for LAN-only tests. 
+	- Data I used for satellite initcwnd : /home/jjutlis/data_storage/initcwnd_experiments 
+	- Data I created regarding initcwnd : /home/zaporter/data_storage/initcwnd_experiments_LAN
+	- Mathematica source code : gitrepo/notes/ThroughputTrials.nb
+
+Important remarks:
+	- initcwnd:
+		- If future students want to do tests on initcwnd, please ensure that they review my changes in /home/zaporter/testbed/trial.py. The command used by jjutlis is close to the working one, however, it does not currently work. I spend many many hours debugging 2-3 simple errors in that code.
+		- Also, please reccomend to them that they run 'ip route' to verify that the cwnd is really changing between trials.
+		- I also had a bit of trouble running tests using mlcneta, so I ran my tests using mlcnetd despite the fact that mlcnetd is colloqually equivalent to pcc. 
+	
+	- Due to lack of high power compute resources (Stuck with my Surface-Go (4GB RAM, Pentium CPU)), I was able to create 1-2 graphs however am not currently able to do any real data-viz. Opening the files in wireshark and lots of comparison has hinted that the data is good. I will have access to my desktop in early January where I can do a bit more exploring
+		
+	- Side notes:
+		- mlcneta behaves strangely with regards to user authentication
+		- I used "Mathematica" for data analysis. WPI provides this software for free. If you have any trouble whatsoever with any of the code I wrote, I can translate most of it to python fairly fast. (I can also just recreate the data for plotting in python if consistency is all that matters.)	 
+
+
+
+Future commitments:
+	- Willing to spend time reviewing and working on drafts of any research papers that come of our work
+	- Willing to help recreate / reformat any graphs or related plots that might be of use for data analysis / presentation
+	- Willing to spend some time helping out future research students 
+	- Willing to possibly spend time understanding BBR's congestion control at a much deeper level
+	- Will likely spend some time this break playing around with the data to find addtional patterns
+
+
