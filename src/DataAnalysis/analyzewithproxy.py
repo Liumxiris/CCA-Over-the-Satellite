@@ -423,11 +423,11 @@ def main(DATA_DIR=DATA_DIR):
     df.to_csv(f"{DATA_DIR}/startup_rtt_quantiles.csv")
 
 
-     df = pd.DataFrame(losses)
-     df.to_csv(f"{DATA_DIR}/losses.csv")
+    df = pd.DataFrame(losses)
+    df.to_csv(f"{DATA_DIR}/losses.csv")
 
-     df = pd.DataFrame(steady_losses)
-     df.to_csv(f"{DATA_DIR}/steady_losses.csv")
+    df = pd.DataFrame(steady_losses)
+    df.to_csv(f"{DATA_DIR}/steady_losses.csv")
 
     # ts = pd.concat(timeslices)
     # ts.to_csv(f"{DATA_DIR}/timeslices.csv")

@@ -1,0 +1,15 @@
+[EXPERIMENT_GENERAL]
+machine_name = Glomma
+experiment_name = TRIAL
+experiment_dir_glomma = $HOME/experiment/TRIAL
+proxy_modes = 2, 3
+
+[IPS]
+mlca.cs.wpi.edu = 
+mlcb.cs.wpi.edu = 
+
+[EXPERIMENT_TRIAL]
+udping_flag = False
+verbose = True
+data_size_and_rounds = 1G_50, 2G_0
+

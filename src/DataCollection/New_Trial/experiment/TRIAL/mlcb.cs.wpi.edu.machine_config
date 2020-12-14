@@ -1,0 +1,12 @@
+[EXPERIMENT]
+machine_name = mlcb.cs.wpi.edu
+experiment_name = TRIAL
+experiment_dir_remote = $HOME/experiment/TRIAL
+glomma_ip = 
+
+[TCP]
+net.ipv4.tcp_mem = 60000000
+net.ipv4.tcp_wmem = 60000000
+net.ipv4.tcp_rmem = 60000000
+net.ipv4.tcp_congestion_control = BBR
+
