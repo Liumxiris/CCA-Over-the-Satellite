@@ -7,11 +7,6 @@ This is the main repository for CCA-Over-the-Satellite ISP B term.
 ```bash
 .
 ├── notes: all research notes
-├── figures: contains figures we had
-│   ├── ?? Category
-│   │   └── bar_chunks_fraction: contains the scripts and the data 
-│   └── ?? Category
-│       └── checkpoint_overhead
 ├── src: project code
 │   ├── DataAnalysis: Analysis Scripts
 │   ├── DataCollection: Collection Scripts.
