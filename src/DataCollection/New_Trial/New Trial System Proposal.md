@@ -1,4 +1,4 @@
-### Changes On Trial [ Data Collection Module ]
+## New Trial System Proposal
 
 ### Issues
 1. 
@@ -102,5 +102,5 @@ DATA_SIZE_AND_ROUNDS = 1G_50, 2G_0
 
 + after glomma reset 
     - check glomma new ip
-    add to machine firewall
-    add root permission at glomma
+    - add to machine firewall
+    - add root permission at glomma
