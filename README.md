@@ -23,20 +23,29 @@ This is the main repository for CCA-Over-the-Satellite ISP B term.
 ## Findings
 
 - Progress
-    - Week1
-            -Used data directory:
-    - Week2
-            -Used data directory:
-    - Week3
-            -Used data directory:
-    - Week4
-            -Used data directory:
-    - Week5
-            -Used data directory:
-    - Week6
-            -Used data directory:
-    - Week7
-            -Used data directory:
+    - Week1:
+        -Used data directory: None
+        -Background presentations on four congestion control algorithms.
+    - Week2:
+        -Used data directory: None
+        -Studied basic commands: route, tcpdump, iperf, etc.
+    - Week3:
+        -Used data directory: ?
+        -Developed scripts for repeated experiment runs and pipelined data analysis.
+    - Week4:
+        -Used data directory: ?
+        -Tested scripts for turning proxy on/off.
+        -Prepared for 24 hours data collection.
+        -Wrote logfile analyzer to estimate throughputs without actually using pcaps and csv.
+    - Week5:
+        -Used data directory: ?
+        -Presented data collected over 35 hours run
+    - Week6:
+        -Used data directory: ?
+        -Developed new script to analyze single trial and best/worst case for each proxy in the entire 24 hours experiment.
+    - Week7:
+        -Used data directory: ?
+        -Presented data collected over 24 hours run (on workday) and generated more significant data (mean and standard deviation)
 
 ## System Configurations
 - Flow
