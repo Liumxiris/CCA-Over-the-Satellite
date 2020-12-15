@@ -1,4 +1,5 @@
-* All scripts used for generating plots are located under (scr/DataAnalysis)
+## Scripts used for generating plots (TCP_Dec_9.pptx)
+* All scripts are located under (scr/DataAnalysis)
 ### slides 9-10
 * Run **singletrailtimeplot.py** to generate plot for throughput vs. time. 
 ### slides 11-14
