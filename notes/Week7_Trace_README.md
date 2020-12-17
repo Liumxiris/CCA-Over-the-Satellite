@@ -1,5 +1,5 @@
 ## Scripts & Traces used for generating plots (TCP_Dec_9.pptx)
-- All scripts are located under (scr/DataAnalysis)
+- All scripts are located under (src/DataAnalysis)
 - Plots prior to the Slide 11 are based on the test trail
 - Plots starting from the Slide 11 are based on 24 hours traces
   - path on the Glomma: /home/yliu31/clayTrials/WEEKEND_TEST_2
